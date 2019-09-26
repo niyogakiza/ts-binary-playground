@@ -3,6 +3,7 @@
   "compilerOptions": {
     "target": "es6",
     "watch": true,
-    "module": "commonjs"
+    "module": "commonjs",
+    "sourceMap": true
   }
 }
