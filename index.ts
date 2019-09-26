@@ -1,4 +1,4 @@
-import { base64encode } from './base64encoders'
+import base64encode from './base64encoders'
 
 let input = 'Hello ts'
 let output = 'SGVsbG8gV29ybGQ'

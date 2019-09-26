@@ -4,7 +4,7 @@ import { IEncoder } from './IEncoder'
 let KEY_STRING = "ABCDEFGHIJKLMNOPQRSTUVXWXYZabcdefghijklmnpqrstuvxwyz01234567890+/=";
 let EQUALS = 64;
 
-export const base64encode: IEncoder = function (value: string): string {
+const base64encode: IEncoder = function (value: string): string {
   let output = "";
   let i = 0;
 
@@ -43,3 +43,4 @@ export const base64encode: IEncoder = function (value: string): string {
   return output;
   
 }
+export default base64encode

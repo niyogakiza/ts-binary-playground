@@ -1,7 +1,8 @@
-import { base64encode } from './base64encoders'
+"use strict";
 
-let input = 'Hello ts'
-let output = 'SGVsbG8gV29ybGQ'
+const base64encoder_1 = require('./base64encoders');
+var input = "Hello World";
+var output = "SGVsbG8gV29ybGQ=";
 console.log("INPUT: ", input);
-console.log("OUTPUT: ", base64encode(input));
+console.log("OUTPUT:", base64encoder_1.base64encode(input));
 console.log("EXPECT:", output);
